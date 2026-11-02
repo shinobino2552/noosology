@@ -16,7 +16,10 @@ concepts/   概念ノート（用語・定義・自分の理解）
 relations/  概念間の関係（A → B の意味）
 learning/   学習ログ・疑問・次に調べること
 sources/    出典・参照リンク
+ai/         AI集約レーン（人手メモとは別系統）
 ```
+
+人手メモと AI 集約は混ぜません。AI の出力ルールは [`ai/README.md`](ai/README.md) を参照。
 
 ## 使い方
 
@@ -24,5 +27,6 @@ sources/    出典・参照リンク
 2. つながりの気づきは `relations/` に追記
 3. 学習の記録は `learning/` に日付ログを残す
 4. 出典は `sources/` に集約
+5. AI 集約は `ai/` にだけ書き、人手ファイルは提案経由で反映
 
 関係の書き方の例は [`relations/README.md`](relations/README.md) を参照。
